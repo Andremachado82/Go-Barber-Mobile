@@ -1,7 +1,7 @@
 import React from 'react';
-import { StatusBar } from 'react-native';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
+import { StatusBar } from 'react-native';
 
 import './config/ReactotronConfig';
 
