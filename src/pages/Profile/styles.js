@@ -11,7 +11,7 @@ export const Title = styled.Text`
   color: #fff;
   font-weight: bold;
   align-self: center;
-  margin-top: 30px;
+  margin-top: 20px;
 `;
 
 export const Form = styled.ScrollView.attrs({
@@ -24,12 +24,17 @@ export const Form = styled.ScrollView.attrs({
 export const Separator = styled.View`
   height: 1px;
   background: rgba(255, 255, 255, 0.2);
-  margin: 20px 0 30px;
+  margin: 20px 0px 30px;
 `;
 
 export const FormInput = styled(Input)`
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 `;
 export const SubmitButton = styled(Button)`
-  margin-top: 5px;
+  margin-top: 8px;
+`;
+
+export const LogoutButton = styled(Button)`
+  margin-top: 8px;
+  background: #f64c75;
 `;
