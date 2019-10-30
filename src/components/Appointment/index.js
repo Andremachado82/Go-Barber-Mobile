@@ -44,7 +44,13 @@ export default function Appointment({ data, onCancel }) {
 
 // Appointment.propTypes = {
 //   data: PropTypes.shape({
-//     provider: PropTypes.number,
-//     avatar: PropTypes.shape({}),
+//     provider: PropTypes.shape({
+//       avatar: PropTypes.shape({
+//         url: PropTypes.string,
+//       }),
+//       name: PropTypes.string,
+//     }),
+//     past: PropTypes.bool,
+//     date: PropTypes.string,
 //   }).isRequired,
 // };
